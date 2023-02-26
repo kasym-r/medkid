@@ -1,0 +1,108 @@
+.main {
+
+    .intro {
+        height: 700px;
+        background-image: url(https://media.spbdnevnik.ru/uploads/block/image/262831/__medium_%D0%9C%D0%B5%D1%87%D1%82%D1%8B1.png.jpg);
+        background-size: cover;
+        .text_block {
+            padding: 40px 40px;
+            h1 {
+                font-size: 60px;
+                font-weight: 600;
+                color: orange;
+            }
+        
+            P {
+                font-size: 40px;
+                font-weight: 400;
+                color: white;
+            }
+        }
+
+        .qr {
+            margin-left: 50px;
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .info {
+        margin-top: 50px;
+
+        .btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            button {
+                color: white;
+                // padding: 40px 72px;
+                background-image: linear-gradient(45deg, #eda600 0%, #ffe400 100%);
+                border: none;
+                border-radius: 74px;
+                font-size: 28px;
+                word-wrap: none;
+                min-width: 250px;
+                min-height: 70px;
+            }
+        }
+
+        .icns {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 69px;
+
+            .icn {
+                min-height: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+
+                img {
+                    max-width: 150px;
+                    max-height: 90px;
+                    cursor: pointer;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+        
+    }
+    
+    .intro2 {
+        background-color: #fbab0a;
+        padding: 20px 20px;
+        // rotate: -2deg;
+
+        .image_block2 {
+            position: absolute;
+            z-index: -1;
+        }
+
+        .text_block2 {
+            margin-left: 20px;
+            h1 {
+                font-size: 40px;
+                font-weight: 600;
+                color: white;
+            }
+    
+            p {
+                color: white;
+                font-size: 22px;
+                font-weight: 300;
+                max-width: 600px;
+            }
+        }
+    }
+}

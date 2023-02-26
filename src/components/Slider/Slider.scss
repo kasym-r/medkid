@@ -1,0 +1,18 @@
+.slider-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  
+  .slick-slide h3 {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 30px;
+    background: white;
+    text-align: center;
+  }

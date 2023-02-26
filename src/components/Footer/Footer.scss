@@ -1,0 +1,43 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    div {
+        display: flex;
+        padding-left: 5%;
+        margin-top: 20px;
+    }
+    // .logo {
+    //     img {
+    //         width: 90%;
+    //         height: 80%;
+    //     }
+    // }
+    &_right {
+        display: flex;
+        flex-direction: column;
+        span {
+            font-size: 30px;
+        }
+        &_info {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                list-style: none;
+                li {
+                    font-size: 18px;
+
+                }
+            }
+        }
+    }
+    &_bottom {
+
+        color: white;
+        align-items: center;
+        background-color: black;
+        height: 40px;
+    }
+}

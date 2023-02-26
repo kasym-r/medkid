@@ -1,0 +1,64 @@
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .bm-cross {
+    background: #1e1e1f;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  .bm-menu {
+    background-image: url(https://celes.club/uploads/posts/2022-10/1667249032_5-celes-club-p-meditsinskie-kartinki-dlya-fona-pinterest-6.jpg);
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-item {
+    color: rgb(123, 25, 215);
+    text-decoration: none;
+    font-size: 27px;
+    padding: 10px 10px;
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
